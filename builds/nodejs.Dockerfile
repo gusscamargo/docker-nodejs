@@ -3,10 +3,9 @@ FROM node:16
 RUN npm i -g -y nodemon mysql2
 
 RUN mkdir /usr/data
-COPY src/package.json /usr/data
+COPY src/package.json /usr/data/package.json
 WORKDIR /usr/data
-RUN npm i
-ENV NODE_PATH=/usr/data/node_modules
+RUN npm i -g -y
 
 WORKDIR /usr/app
 
