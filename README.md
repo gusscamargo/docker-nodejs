@@ -1,7 +1,7 @@
 # docker-nodejs-mysql
 
 ## Objetivo
-Manutenção de um ambiente de desenvolvimento Docker para trabalhos com NodeJS e MySQL.
+Projeto publico para manutenção de um template de ambiente de desenvolvimento Docker para trabalhos com NodeJS e MySQL.
 
 ## O que ela faz?
 Roda aplicações NodeJS com possibilidade de conexão a um banco de dados MySQL e o gerenciador de banco de dados PhpMyAdmin.
