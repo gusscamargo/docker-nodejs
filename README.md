@@ -28,6 +28,6 @@ docker-compose up -d
 4. A aplicação NodeJS deve usar a porta 3000.
 5. Para instalar novos pacotes digite:
 ```
-docker-compose exec app "npm install <nome do pacote>"
+docker-compose exec app "npm install -g -y <nome do pacote>"
 ```
 6. O ambiente sempre irá ler o arquivo "app.js" como cabeça do projeto.
