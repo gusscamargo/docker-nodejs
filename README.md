@@ -30,3 +30,4 @@ docker-compose up -d
 ```
 docker-compose exec app "npm install <nome do pacote>"
 ```
+6. O ambiente sempre irá ler o arquivo "app.js" como cabeça do projeto.
