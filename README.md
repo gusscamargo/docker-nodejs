@@ -26,7 +26,7 @@ docker-compose up -d
 2. Os pacotes [nodemon](https://www.npmjs.com/package/nodemon) e [mysql2](https://www.npmjs.com/package/mysql2) ja vem pre instalados no ambiente, não há necessidade de instalalos localmente na aplicação.
 3. Acessos remotos ao banco de dados com exceção via o PhpMyAdmin estão vedados.
 4. A aplicação NodeJS deve usar a porta 3000.
-5 Para instalar novos pacotes digite:
+5. Para instalar novos pacotes digite:
 ```
 docker-compose exec app "npm install <nome do pacote>"
 ```
