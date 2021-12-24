@@ -1,6 +1,7 @@
 FROM node:16
 
-RUN npm i -g -y nodemon
+# Instalando npx
+RUN npm i nodemon cowsay -g -y
 
 RUN mkdir /usr/data
 COPY src/package.json /usr/data/package.json
@@ -11,6 +12,4 @@ WORKDIR /usr/app
 
 EXPOSE 3000
 
-
-# ENTRYPOINT [ "npm", "run", "start" ]
 ENTRYPOINT [ "nodemon", "--legacy-watch", "app.js" ]
