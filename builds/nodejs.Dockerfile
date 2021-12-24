@@ -1,6 +1,6 @@
 FROM node:16
 
-RUN npm i -g -y nodemon mysql2
+RUN npm i -g -y nodemon
 
 RUN mkdir /usr/data
 COPY src/package.json /usr/data/package.json
