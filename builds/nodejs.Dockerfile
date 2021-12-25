@@ -1,7 +1,7 @@
 FROM node:16
 
 # Instalando npx
-RUN npm i nodemon cowsay create-react-app -g -y
+RUN npm i nodemon cowsay create-react-app react-scripts -g -y
 
 RUN mkdir /usr/data
 COPY src/package.json /usr/data/package.json
