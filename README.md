@@ -1,5 +1,5 @@
 
-# docker-nodejs-mysql
+# Ambiente de desenvolvimento docker com nodejs e mysql
 
 ## Objetivo
 Projeto publico para manutenção de um template de ambiente de desenvolvimento Docker para trabalhos com NodeJS e MySQL.
